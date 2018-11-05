@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C56C2B32F28785B86A01DBA /* Pods_GS1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533644B5A7C4D3FAED941F3C /* Pods_GS1Tests.framework */; };
+		19B0492D65A7D364FD8624CA /* Pods_GS1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6EA640FEC924DFDA169456 /* Pods_GS1UITests.framework */; };
 		289FEDA621904F5200A382AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289FEDA521904F5200A382AA /* AppDelegate.swift */; };
 		289FEDA821904F5200A382AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289FEDA721904F5200A382AA /* ViewController.swift */; };
 		289FEDAB21904F5200A382AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289FEDA921904F5200A382AA /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		289FEDB021904F5C00A382AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289FEDAE21904F5C00A382AA /* LaunchScreen.storyboard */; };
 		289FEDBB21904F5C00A382AA /* GS1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289FEDBA21904F5C00A382AA /* GS1Tests.swift */; };
 		289FEDC621904F5C00A382AA /* GS1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289FEDC521904F5C00A382AA /* GS1UITests.swift */; };
+		289FEDD4219050E300A382AA /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 289FEDD3219050E300A382AA /* credentials.plist */; };
+		40CC766D25E63B6589558290 /* Pods_GS1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E6FB38C712BAE8A12410E6 /* Pods_GS1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E6FB38C712BAE8A12410E6 /* Pods_GS1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GS1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EEFFA54991025DAC2BDD99 /* Pods-GS1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1.release.xcconfig"; path = "Target Support Files/Pods-GS1/Pods-GS1.release.xcconfig"; sourceTree = "<group>"; };
+		1E9342C54F2F770516FFB0B4 /* Pods-GS1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1Tests.debug.xcconfig"; path = "Target Support Files/Pods-GS1Tests/Pods-GS1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2310158F51D0F503D9F886CD /* Pods-GS1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1Tests.release.xcconfig"; path = "Target Support Files/Pods-GS1Tests/Pods-GS1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		289FEDA221904F5200A382AA /* GS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GS1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		289FEDA521904F5200A382AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		289FEDA721904F5200A382AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		289FEDC121904F5C00A382AA /* GS1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GS1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		289FEDC521904F5C00A382AA /* GS1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS1UITests.swift; sourceTree = "<group>"; };
 		289FEDC721904F5C00A382AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289FEDD3219050E300A382AA /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		4B6EA640FEC924DFDA169456 /* Pods_GS1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GS1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		533644B5A7C4D3FAED941F3C /* Pods_GS1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GS1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2F00B41D29310F93BC7EE8 /* Pods-GS1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1.debug.xcconfig"; path = "Target Support Files/Pods-GS1/Pods-GS1.debug.xcconfig"; sourceTree = "<group>"; };
+		7DBFB5CCB5E306BF653746E4 /* Pods-GS1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1UITests.debug.xcconfig"; path = "Target Support Files/Pods-GS1UITests/Pods-GS1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1B181E63B087BA9984ABDB /* Pods-GS1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GS1UITests.release.xcconfig"; path = "Target Support Files/Pods-GS1UITests/Pods-GS1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CC766D25E63B6589558290 /* Pods_GS1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C56C2B32F28785B86A01DBA /* Pods_GS1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B0492D65A7D364FD8624CA /* Pods_GS1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185FAF2DCC7E8D6532C6AB38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A2F00B41D29310F93BC7EE8 /* Pods-GS1.debug.xcconfig */,
+				19EEFFA54991025DAC2BDD99 /* Pods-GS1.release.xcconfig */,
+				1E9342C54F2F770516FFB0B4 /* Pods-GS1Tests.debug.xcconfig */,
+				2310158F51D0F503D9F886CD /* Pods-GS1Tests.release.xcconfig */,
+				7DBFB5CCB5E306BF653746E4 /* Pods-GS1UITests.debug.xcconfig */,
+				9D1B181E63B087BA9984ABDB /* Pods-GS1UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		289FED9921904F5200A382AA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				289FEDB921904F5C00A382AA /* GS1Tests */,
 				289FEDC421904F5C00A382AA /* GS1UITests */,
 				289FEDA321904F5200A382AA /* Products */,
+				185FAF2DCC7E8D6532C6AB38 /* Pods */,
+				6A11089CA71036351D461D20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +129,7 @@
 		289FEDA421904F5200A382AA /* GS1 */ = {
 			isa = PBXGroup;
 			children = (
+				289FEDD3219050E300A382AA /* credentials.plist */,
 				289FEDA521904F5200A382AA /* AppDelegate.swift */,
 				289FEDA721904F5200A382AA /* ViewController.swift */,
 				289FEDA921904F5200A382AA /* Main.storyboard */,
@@ -125,6 +158,16 @@
 			path = GS1UITests;
 			sourceTree = "<group>";
 		};
+		6A11089CA71036351D461D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E6FB38C712BAE8A12410E6 /* Pods_GS1.framework */,
+				533644B5A7C4D3FAED941F3C /* Pods_GS1Tests.framework */,
+				4B6EA640FEC924DFDA169456 /* Pods_GS1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 289FEDCA21904F5C00A382AA /* Build configuration list for PBXNativeTarget "GS1" */;
 			buildPhases = (
+				3D9019682E49F944E910F086 /* [CP] Check Pods Manifest.lock */,
 				289FED9E21904F5200A382AA /* Sources */,
 				289FED9F21904F5200A382AA /* Frameworks */,
 				289FEDA021904F5200A382AA /* Resources */,
+				8480FA3A71ED4B5AC004F663 /* [CP] Embed Pods Frameworks */,
+				2C926D23803C0C6DAD03959F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 289FEDCD21904F5C00A382AA /* Build configuration list for PBXNativeTarget "GS1Tests" */;
 			buildPhases = (
+				BBA6EF194A7FDFD7C0CAFB06 /* [CP] Check Pods Manifest.lock */,
 				289FEDB221904F5C00A382AA /* Sources */,
 				289FEDB321904F5C00A382AA /* Frameworks */,
 				289FEDB421904F5C00A382AA /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 289FEDD021904F5C00A382AA /* Build configuration list for PBXNativeTarget "GS1UITests" */;
 			buildPhases = (
+				77D6FB1D2A3CD2F7692264B1 /* [CP] Check Pods Manifest.lock */,
 				289FEDBD21904F5C00A382AA /* Sources */,
 				289FEDBE21904F5C00A382AA /* Frameworks */,
 				289FEDBF21904F5C00A382AA /* Resources */,
@@ -230,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				289FEDB021904F5C00A382AA /* LaunchScreen.storyboard in Resources */,
+				289FEDD4219050E300A382AA /* credentials.plist in Resources */,
 				289FEDAD21904F5C00A382AA /* Assets.xcassets in Resources */,
 				289FEDAB21904F5200A382AA /* Main.storyboard in Resources */,
 			);
@@ -250,6 +299,123 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C926D23803C0C6DAD03959F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GS1/Pods-GS1-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GS1/Pods-GS1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D9019682E49F944E910F086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GS1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D6FB1D2A3CD2F7692264B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GS1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8480FA3A71ED4B5AC004F663 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GS1/Pods-GS1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GS1/Pods-GS1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA6EF194A7FDFD7C0CAFB06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GS1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		289FED9E21904F5200A382AA /* Sources */ = {
@@ -430,6 +596,7 @@
 		};
 		289FEDCB21904F5C00A382AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2F00B41D29310F93BC7EE8 /* Pods-GS1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +615,7 @@
 		};
 		289FEDCC21904F5C00A382AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EEFFA54991025DAC2BDD99 /* Pods-GS1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +634,7 @@
 		};
 		289FEDCE21904F5C00A382AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9342C54F2F770516FFB0B4 /* Pods-GS1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +656,7 @@
 		};
 		289FEDCF21904F5C00A382AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2310158F51D0F503D9F886CD /* Pods-GS1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +678,7 @@
 		};
 		289FEDD121904F5C00A382AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBFB5CCB5E306BF653746E4 /* Pods-GS1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +699,7 @@
 		};
 		289FEDD221904F5C00A382AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1B181E63B087BA9984ABDB /* Pods-GS1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
