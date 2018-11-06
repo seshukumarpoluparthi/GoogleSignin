@@ -35,6 +35,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="SignIn"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aiA-e2-jyV">
+                                <rect key="frame" x="62.5" y="265" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aiA-e2-jyV" secondAttribute="height" multiplier="1:1" id="5Ki-yq-1vg"/>
+                                    <constraint firstAttribute="width" constant="250" id="TrH-mv-iP7"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -43,12 +50,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UWa-RS-NNR" secondAttribute="trailing" constant="50" id="KmT-tR-1o5"/>
                             <constraint firstItem="HX8-uh-udx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MCy-CD-fTH"/>
                             <constraint firstItem="UWa-RS-NNR" firstAttribute="top" secondItem="HX8-uh-udx" secondAttribute="bottom" constant="65" id="YmM-Dv-Wc8"/>
+                            <constraint firstItem="aiA-e2-jyV" firstAttribute="top" secondItem="UWa-RS-NNR" secondAttribute="bottom" constant="40" id="h6z-fI-45H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HX8-uh-udx" secondAttribute="trailing" constant="20" id="hRt-AS-0HO"/>
+                            <constraint firstItem="aiA-e2-jyV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xBt-SG-7pA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="lbl_Title" destination="HX8-uh-udx" id="EmI-wi-cR5"/>
+                        <outlet property="profile_img" destination="aiA-e2-jyV" id="Pyl-Hu-TZX"/>
                         <outlet property="signInBtn" destination="UWa-RS-NNR" id="sZ4-fW-GHC"/>
                     </connections>
                 </viewController>
